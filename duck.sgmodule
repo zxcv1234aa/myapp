@@ -12,7 +12,7 @@
 # 4. 在地址栏输入 "gh surge" 测试跳转 GitHub，输入 "普通搜索" 测试跳转 Google。
 # ============================================
 
-https://ahrefs.com/writing-tools/paragraph-rewriter
+[URL Rewrite]
 # --- 翻译与词典 ---
 # 有道词典 (yd)
 ^https:\/\/duckduckgo.com\/\?q=yd\+([^&]+).+ http://dict.youdao.com/search?q=$1 302
