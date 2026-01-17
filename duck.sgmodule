@@ -1,10 +1,8 @@
 #!name=DuckDuckGo 搜索增强
 #!desc=Safari 默认引擎设为 DuckDuckGo 时，支持 "gh surge" 跳转 GitHub 等快捷指令。无指令默认重定向至 Google。
-#!category=Enhancement
-#!system=ios
 #!author=GitHubUser
 #!icon=magnifyingglass.circle.fill
-#!url=
+#!url=https://raw.githubusercontent.com/zxcv1234aa/myapp/main/duck.sgmodule
 
 # ============================================
 # 使用说明：
