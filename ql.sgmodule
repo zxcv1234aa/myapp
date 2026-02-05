@@ -11,5 +11,4 @@
 ^https?:\/\/ql\.com http://143.47.110.64:5700/ 302
 
 [MITM]
-# 确保即使浏览器强制 HTTPS 也能成功解密并跳转
 hostname = %APPEND% ql.com
