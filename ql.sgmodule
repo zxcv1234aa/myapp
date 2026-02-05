@@ -1,3 +1,9 @@
+#!name=ql
+#!desc=ql
+#!author=GitHubUser
+#!icon=magnifyingglass.circle.fill
+#!url=https://raw.githubusercontent.com/zxcv1234aa/myapp/main/ql.sgmodule
+
 [Host]
 # 让自定义域名生效，触发 Surge 拦截
 ql.imp = 127.0.0.1
