@@ -4,13 +4,12 @@
 #!icon=magnifyingglass.circle.fill
 #!url=https://raw.githubusercontent.com/zxcv1234aa/myapp/main/ql.sgmodule
 
-[Host]
-# 让自定义域名生效，触发 Surge 拦截
-ql.imp = 127.0.0.1
+
 
 # 匹配域名并执行 302 跳转
-^https?:\/\/ql\.imp http://143.47.110.64:5700/ 302
+[URL Rewrite]
+^https?:\/\/ql\.com http://143.47.110.64:5700/ 302
 
 [MITM]
 # 确保即使浏览器强制 HTTPS 也能成功解密并跳转
-hostname = %APPEND% ql.imp
+hostname = %APPEND% ql.com
